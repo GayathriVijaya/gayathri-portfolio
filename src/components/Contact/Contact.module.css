@@ -1,0 +1,164 @@
+ @import "../../vars.css";
+/*
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+} */
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background: linear-gradient(180deg, #1d2d6b 0%, #0c1e3e 100%);
+  box-shadow: 0 8px 16px rgba(4, 21, 45, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  border-radius: 10px;
+  transition: transform 0.3s, background 0.3s;
+}
+
+/* Hover effect */
+.container:hover {
+  background: rgba(50, 67, 133, 0.85);
+  transform: scale(1.02);
+}
+
+.text {
+  text-align: left;
+  flex: 1;
+}
+
+.text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 12px;
+}
+
+.text p {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  flex: 1;
+}
+
+/* Align links in center */
+.link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 18px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.link img {
+  width: 30px;
+  height: 30px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.link a:hover {
+  color: black;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .links {
+    align-items: center;
+  }
+}
