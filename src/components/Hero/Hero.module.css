@@ -39,7 +39,7 @@
   margin-bottom: 52px;
 }
 
-.contactBtn {
+/* .contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
   color: var(--color-text);
@@ -48,7 +48,66 @@
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+} */
+/* .contactBtn {
+  text-decoration: none;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 1px #00eaff, 0 0 40px #00aaff;
+  transition: all 0.3s ease-in-out;
+} */
+
+/* .contactBtn:hover {
+  box-shadow: 0 0 4px #00eaff, 0 0 50px #00eaff, 0 0 80px #00eaff;
+  background-color: #0099ff;
+  color: #1e1e1e;
+} */
+ /* .contactBtn {
+  text-decoration: none;
+  background: linear-gradient(90deg, var(--color-secondary), var(--color-primary), var(--color-dark));
+  background-size: 300% 300%;
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
 }
+
+.contactBtn:hover {
+  background-position: right center;
+  box-shadow: 0 6px 15px rgba(149, 168, 244, 0.6); 
+  transform: scale(1.05);
+} */
+.contactBtn {
+  text-decoration: none;
+  background: linear-gradient(90deg, #6a8dfc, #829cff, #5aa2ff);
+  background-size: 300% 300%;
+  color: #fff;
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 4px 12px rgba(90, 162, 255, 0.6); /* Soft glow effect */
+  transition: all 0.4s ease-in-out;
+}
+
+.contactBtn:hover {
+  background-position: right center;
+  box-shadow: 0 6px 18px rgba(130, 156, 255, 0.8); /* Stronger glow */
+  transform: scale(1.08);
+}
+
+
+
+
+
+
 
 .heroImg {
   width: 50%;

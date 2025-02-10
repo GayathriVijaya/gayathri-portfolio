@@ -148,7 +148,7 @@
   margin-left: 17px;
 }
 
-@media screen and (max-width: 830px) {
+/* @media screen and (max-width: 830px) {
   .content {
     flex-direction: column;
     align-items: center;
@@ -164,5 +164,32 @@
   .history {
     width: 100%;
     gap: 9px;
+  }
+} */
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ensures 3 skills per row */
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .history {
+    width: 100%;
+    gap: 9px;
+  }
+}
+
+/* For even smaller screens, like mobile phones */
+@media screen and (max-width: 500px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr); /* 2 skills per row for smaller screens */
   }
 }

@@ -11,12 +11,17 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}> Hello, I'm Gayathri</h1>
         <p className={styles.description}>
-          I'm a third-year engineering student  passionate about learning, innovation ,
-          and building impactful projects 🚀. I enjoy exploring technologies
-          and developing solutions!
+          I'm a third-year engineering student passionate about learning,
+          innovation, and building impactful projects 🚀. I enjoy exploring
+          technologies and creating scalable, real-world solutions!
         </p>
-        <a href="mailto:s.vijayagayathri@gmail.com" className={styles.contactBtn}>
-          Get in Touch
+        <a
+          href="https://drive.google.com/file/d/1M2fyYGRFhtvoZXmdCY9aCGQAPh62bZyU/view?usp=sharing"
+          className={styles.contactBtn}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+           Resume
         </a>
       </div>
       <img src={heroIcon} alt="Hero image of me" className={styles.heroImg} />
@@ -27,8 +32,6 @@ export const Hero = () => {
 };
 // import React from "react";
 // import Typed from "react-typed"; // Without curly braces
-
-
 
 // import styles from "./Hero.module.css";
 
@@ -56,7 +59,7 @@ export const Hero = () => {
 //           </span>
 //         </h1>
 //         <p className={styles.description}>
-//           I'm a third-year engineering student passionate about learning, innovation, and building impactful projects 🚀. 
+//           I'm a third-year engineering student passionate about learning, innovation, and building impactful projects 🚀.
 //           I enjoy exploring technologies and developing solutions!
 //         </p>
 //         <a href="mailto:s.vijayagayathri@gmail.com" className={styles.contactBtn}>
