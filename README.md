@@ -22,11 +22,12 @@
 
 ## 🚀 Installation & Setup  
 
-### **1️⃣ Clone the Repository**  
-```sh
+1️⃣ Clone the Repository
+
 git clone https://github.com/GayathriVijaya/gayathri-portfolio.git
 
 2️⃣ Install Dependencies
+
 npm install
 
 3️⃣ Run Locally
