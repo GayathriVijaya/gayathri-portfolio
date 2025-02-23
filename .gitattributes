@@ -1,0 +1,6 @@
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+dist/* linguist-vendored
+node_modules/* linguist-vendored
