@@ -2,8 +2,8 @@
 
 🚀 A sleek and modern **React-based portfolio website** showcasing my projects, skills.  
 
-## ✨ Live Demo  
-🔗 [Visit Portfolio](https://gayathri-vijaya.netlify.app/)  
+<!-- ## ✨ Live Demo  
+🔗 [Visit Portfolio](https://gayathri-vijaya.netlify.app/)   -->
 
 ---
 
